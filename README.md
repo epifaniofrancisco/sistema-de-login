@@ -24,17 +24,19 @@ Este é um sistema que permite o cadastro de usuários num simples formulário, 
 * [x] Animação de carregamento após entrar na sua conta
 * [x] Animação com o desaparecimento da logo após segundos
 
-* [] Entrar com o Google
-* [] Entrar com o Facebook
-* [] Recuperar a senha
+* [ ] Entrar com o Google
+* [ ] Entrar com o Facebook
+* [ ] Recuperar a senha
 
 ---
 
 ## 🎨 Layout
+![logo](https://user-images.githubusercontent.com/81193129/141694631-d09e3add-b8ca-4f91-80f8-ee52c9f6f625.png)
+![intro](https://user-images.githubusercontent.com/81193129/141694872-db885a4e-7590-4cef-bf4a-284e8ea7922e.png)
 
-### Cadastrar
+![cadastrar](https://user-images.githubusercontent.com/81193129/141695428-c30e1446-f3b8-4df7-b761-3be662286c18.png)
+![entrar](https://user-images.githubusercontent.com/81193129/141695429-c5a9b1e7-88c3-41eb-a83a-9bc1ba17f87c.png)
 
-### Entrar
 
 ---
 
