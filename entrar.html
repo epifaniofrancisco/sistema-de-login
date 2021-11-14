@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/sign_style.css">
+</head>
+
+<body>
+    <main>
+        <p>Entrar na sua conta</p>
+        <form class="form" method="POST" action="php/entrar.php">
+            <label class="label-input">
+                <img class="icon-modify" src="./images/email_white_24dp.svg" alt="person icon">
+                <input type="email" name="email" id="email">
+            </label>
+
+            <label class="label-input">
+                <img class="icon-modify" src="./images/lock_white_24dp.svg" alt="lock icon">
+                <input type="password" name="password" id="password">
+            </label>
+
+            <div class="buttons">
+                <button class="button-primary">Entrar</button>
+            </div>
+        </form>
+
+        <p>
+            <a href="cadastrar.html">Criar uma nova conta</a>
+        </p>
+
+        <p>
+            <a class="ajuda" href="#">Não sabes a tua palavra-passe?</a>
+        </p>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+main form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-input {
+    width: 300px;
+    height: 50px;
+    background-color: #1E1E1E;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+.icon-modify {
+    padding: 0 5px;
+}
+
+.label-input input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #1E1E1E;
+    margin-right: 10px;
+    padding: 0 0.5rem;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.buttons .button-primary {
+    margin-top: 2rem;
+}
+
+main a {
+    text-decoration: none;
+    color: #F49F00;
+    font-size: 1.1rem;
+}
+
+.ajuda {
+    font-size: 0.9rem;
+    color: #A1721A;
+}

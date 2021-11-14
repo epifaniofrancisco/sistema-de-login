@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Conta</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/sign_style.css">
+</head>
+
+<body>
+    <main>
+        <p>Criar uma nova conta</p>
+        <form class="form" method="POST" action="php/cadastrar.php">
+            <label class="label-input">
+                <img class="icon-modify" src="./images/person_white_24dp.svg" alt="person icon">
+                <input type="text" name="nome" id="nome" maxlength="30">
+            </label>
+
+            <label class="label-input">
+                <img class="icon-modify" src="./images/email_white_24dp.svg" alt="person icon">
+                <input type="email" name="email" id="email" maxlength="30">
+            </label>
+
+            <label class="label-input">
+                <img class="icon-modify" src="./images/lock_white_24dp.svg" alt="lock icon">
+                <input type="password" name="password" id="password" maxlength="30">
+            </label>
+
+            <div class="buttons">
+                <button class="button-primary">Criar Conta</button>
+            </div>
+        </form>
+
+        <p>
+            <a href="entrar.html">Entrar</a>
+        </p>
+
+        <p>
+            <a class="ajuda" href="#">Precisa de ajuda?</a>
+        </p>
+    </main>
+
+</body>
+
+</html>

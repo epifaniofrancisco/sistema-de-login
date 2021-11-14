@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    --corprimaria: #282828;
+    --corsecundaria: #F49F00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: var(--corprimaria);
+    color: var(--corsecundaria);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+main {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main p {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.buttons button {
+    width: 300px;
+    height: 50px;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s  ease-in-out;
+    outline: none;
+}
+
+.buttons .button-primary {
+    margin-bottom: 1.8rem;
+    background-color: var(--corsecundaria);
+    color: var(--corprimaria);
+    
+}
+
+.buttons .button-primary:hover {
+    background-color: #C27E00;   
+}
+
+.buttons .button-second {
+    margin-bottom: 1.5rem;
+    background-color: var(--corprimaria);
+    color: var(--corsecundaria);
+    border: 2px solid var(--corsecundaria);
+}
+
+.buttons .button-second:hover {
+    background-color: black; 
+    border: 2px solid var(--corsecundaria);
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .social-media a {
+    text-decoration: none;
+}
+
+main .social-media img {
+    width: 20px;
+    margin-left: 0.9rem;
+}
+
+main .social-media a:first-child img{
+    margin-left: 0.7rem;
+}

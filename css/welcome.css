@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #282828;
+    position: absolute;
+}
+
+.loader > .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    background-color: #F49F00;
+    width: 160px;
+    height: 70px;
+    color: #282828;
+    margin-bottom: 2rem;
+}
+
+.content {
+    display: none;
+}
