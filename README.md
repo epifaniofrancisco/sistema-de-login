@@ -22,7 +22,7 @@ Este é um sistema que permite o cadastro de usuários num simples formulário, 
 * [x] Cadastro de usuário
 * [x] Login para a sua conta
 * [x] Animação de carregamento após entrar na sua conta
-* [*] Animação com o desaparecimento da logo após segundos
+* [x] Animação com o desaparecimento da logo após segundos
 
 * [] Entrar com o Google
 * [] Entrar com o Facebook
