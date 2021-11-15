@@ -31,12 +31,10 @@ Este é um sistema que permite o cadastro de usuários num simples formulário, 
 ---
 
 ## 🎨 Layout
-![logo](https://user-images.githubusercontent.com/81193129/141694631-d09e3add-b8ca-4f91-80f8-ee52c9f6f625.png)
-![intro](https://user-images.githubusercontent.com/81193129/141694872-db885a4e-7590-4cef-bf4a-284e8ea7922e.png)
-
-![cadastrar](https://user-images.githubusercontent.com/81193129/141695428-c30e1446-f3b8-4df7-b761-3be662286c18.png)
-![entrar](https://user-images.githubusercontent.com/81193129/141695429-c5a9b1e7-88c3-41eb-a83a-9bc1ba17f87c.png)
-
+![logo](https://user-images.githubusercontent.com/81193129/141745068-bdf00963-1801-4430-ae6f-d24ae82ae034.png)
+![intro](https://user-images.githubusercontent.com/81193129/141745076-672ad339-0b4a-446b-89be-ba6b53485750.png)
+![cadastro](https://user-images.githubusercontent.com/81193129/141745085-6ac9fbe3-c35d-4585-a673-920b4a6f1a7a.png)
+![entrar](https://user-images.githubusercontent.com/81193129/141745093-b868d9d7-e670-476a-a207-564f5c1fbded.png)
 
 ---
 
